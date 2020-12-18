@@ -438,6 +438,10 @@ export default {
             return;
           }
           this.gridDataForAdd = results.data;
+          // 新增视图时,字段默认权限'U'
+          this.gridDataForAdd.forEach((columnRow) => {
+            columnRow.auth_flag = 'U';
+          });
         })
         .catch( error => {
           // 请求失败处理
