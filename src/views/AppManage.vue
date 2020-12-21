@@ -161,12 +161,7 @@ export default {
     };
   },
   watch: {
-    // newVal,oldVal(固定参数) 新值,旧值
-    dialogFormVisible: function(newVal, oldVal) {
-      this.$nextTick(()=>{
-        this.$refs["formRules"].resetFields();
-      })
-    },
+    
   },
   created: function () {
     // 实例创建完之后调用
@@ -305,7 +300,6 @@ export default {
     },
     addData() {
       // 表单数据重置
-      this.form = {};
       this.form.iid = "";
       this.form.ip_address = "";
       this.form.ip_desc = "";
