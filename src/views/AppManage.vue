@@ -163,7 +163,9 @@ export default {
   watch: {
     // newVal,oldVal(固定参数) 新值,旧值
     dialogFormVisible: function(newVal, oldVal) {
-      this.$refs["formRules"].resetFields();
+      this.$nextTick(()=>{
+        this.$refs["formRules"].resetFields();
+      })
     },
   },
   created: function () {
@@ -303,6 +305,7 @@ export default {
     },
     addData() {
       // 表单数据重置
+      this.form = {};
       this.form.iid = "";
       this.form.ip_address = "";
       this.form.ip_desc = "";
