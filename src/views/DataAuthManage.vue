@@ -437,11 +437,11 @@ export default {
             this.$message.error('获取列表失败');
             return;
           }
-          this.gridDataForAdd = results.data;
           // 新增视图时,字段默认权限'U'
-          this.gridDataForAdd.forEach((columnRow) => {
+          results.data.forEach((columnRow) => {
             columnRow.auth_flag = 'U';
           });
+          this.gridDataForAdd = results.data;
         })
         .catch( error => {
           // 请求失败处理

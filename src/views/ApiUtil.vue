@@ -71,7 +71,7 @@ export default {
       }
     },
     generatePlainUrl(){
-      var preUrl = "http://localhost:8080/common/getDataByViewName?viewName=";
+      var preUrl = "http://202.201.13.120:8080/common/getDataByViewName?viewName=";
       this.out_sql = "";
       try {
         //运行代码
@@ -95,7 +95,7 @@ export default {
       }
     },
     generateCipherUrl(){
-      var preUrl = "http://localhost:8080/common/getDataByViewName?viewName=";
+      var preUrl = "http://202.201.13.120:8080/common/getDataByViewName?viewName=";
       this.out_sql = "";
       try {
         //运行代码
