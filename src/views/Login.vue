@@ -11,14 +11,14 @@
               <i class="el-icon-message" style="font-size: 16px;"></i>
               <span>邮箱</span>
             </p>
-            <input type="text" placeholder="请输入登录邮箱" value="751670441@qq.com">
+            <input type="text" placeholder="请输入登录邮箱" value="">
           </div>
           <div class="login-input">
             <p>
               <i class="el-icon-lock" style="font-size: 16px;"></i>
               <span>密码</span>
             </p>
-            <input type="password" placeholder="请输入登密码" value="123456">
+            <input type="password" placeholder="请输入登密码" value="">
           </div>
           <router-link class="login-btn" to="/appManage" tag="div">登录</router-link>
         </form>
