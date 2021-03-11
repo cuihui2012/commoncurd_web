@@ -27,6 +27,7 @@ const en = {
         appManageName:'App Configure Manage',
         dataAuthManageName:'Data Auth Manage',
         apiUtilName:'Api Utils',
+        apiCommentName:'Api Comments',
         ApiLogName:'Api Log',
         tableLimitAllocate:'Allocation',
         tableAddBtn:'Add',

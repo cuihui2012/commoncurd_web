@@ -25,7 +25,7 @@ let Base64 = require('js-base64').Base64;
 export default {
   data() {
     return {
-      title: "支持sql格式：\n 1:select * from table_name\n 2:select * from table_name where ...\n 3:select * from table_name where 1=1 order by xxx",
+      title: "支持sql格式：\n 1:select * from table_name\n 2:select * from table_name where ...\n 3:select * from table_name where ... order by xxx",
       in_str: "",
       out_str: "",
       in_sql: "",

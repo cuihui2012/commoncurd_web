@@ -53,6 +53,12 @@ export default {
         },
         {
           id: 4,
+          url: "/apiComment",
+          icon: "el-icon-folder",
+          title: "common.apiCommentName"
+        },
+        {
+          id: 5,
           url: "/apiLog",
           icon: "el-icon-tickets",
           title: "common.ApiLogName"

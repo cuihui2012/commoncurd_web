@@ -5,6 +5,7 @@ import home from '@/views/Home.vue'
 import appManage from '@/views/AppManage.vue'
 import dataAuthManage from '@/views/DataAuthManage.vue'
 import apiUtil from '@/views/ApiUtil.vue'
+import apiComment from '@/views/ApiComment.vue'
 import apiLog from '@/views/ApiLog.vue'
 Vue.use(VueRouter)
 
@@ -21,6 +22,7 @@ Vue.use(VueRouter)
         {path: '/appManage',name: 'appManage',component: appManage},
         {path: '/dataAuthManage',name: 'dataAuthManage',component: dataAuthManage},
         {path: '/apiUtil',name: 'apiUtil',component: apiUtil},
+        {path: '/apiComment',name: 'apiComment',component: apiComment},
         {path: '/apiLog',name: 'apiLog',component: apiLog},
       ]
     }

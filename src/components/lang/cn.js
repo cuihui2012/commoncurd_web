@@ -27,6 +27,7 @@ const cn = {
         appManageName:'应用配置管理',
         dataAuthManageName:'数据权限管理',
         apiUtilName:'接口辅助工具',
+        apiCommentName:'接口文档工具',
         ApiLogName:'接口日志',
         tableLimitAllocate:'权限配置',
         tableAddBtn:'添加',
