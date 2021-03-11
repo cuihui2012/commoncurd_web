@@ -16,7 +16,7 @@
       <el-table-column property="column_desc" label="字段描述" width="300"></el-table-column>
       <el-table-column property="data_type" label="字段类型" width="250"></el-table-column>
       <el-table-column property="data_length" label="字段长度" width="250"></el-table-column>
-      <el-table-column property="nullable" label="可为空" width="240"></el-table-column>
+      <el-table-column property="nullable" label="可为空"></el-table-column>
     </el-table>
   </div>
 </template>
