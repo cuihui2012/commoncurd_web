@@ -103,11 +103,16 @@ export default {
           "/auth/getViewColumnList?view_name=" + view_name
         )
         .then( response => {
-          const results = response.data;
+          let results = response.data;
           if (results.code === "0001") {
             // 请求失败处理
             this.$message.error('获取列表失败');
             return;
+          }
+          if (results.data.length > 0) {
+            results.data.forEach((result) => {
+              result.column_name = result.column_name.toLowerCase();
+            });
           }
           this.gridDataForSelect = results.data;
         })
